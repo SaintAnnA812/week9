@@ -10,7 +10,8 @@ let n1 = 128;
 let n2 = 254;
 let n3 = 137;
 let n4 = 201;
-console.log(n1 + n2 + n3 + n4);
+let general = n1 + n2 + n3 + n4;
+console.log(general / 60);
 
 let a = 2;
 let b = 5;
@@ -18,13 +19,14 @@ let c = a ** b;
 console.log(c);
 
 let message = "Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!"
-console.log(`${message}`);
+console.log(`${message}`)
 
 const greetings = "Привет";
 const name = "Кот";
 console.log(`${greetings}, ${name}`);
 
 let time;
+console.log(time);
 time = 34;
 console.log(time);
 console.log(`Старт поездки. Осталось минут: ` + time);
